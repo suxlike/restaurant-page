@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+Html {
+  background-color: rgb(20, 18, 18);
+  font-size: 1em;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+.form-div {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-div {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  color: white;
+  padding: 15px;
+}
+.header {
+  position: absolute;
+  top: 12px;
+  left: 45%;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.top-img {
+  max-width: 60%;
+  margin: 0 auto;
+}
+h1 {
+  margin: 10px;
+  text-align: center;
+}
+p {
+  margin: 10px;
+}
+.mid-div {
+  display: flex;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.mid-div img {
+  margin: 50px;
+  max-width: 50%;
+  height: auto;
+}
